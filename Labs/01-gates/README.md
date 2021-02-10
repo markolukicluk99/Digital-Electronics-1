@@ -19,6 +19,7 @@ end architecture dataflow;
 Screenshot:
 
 
+```
 
 | c | |	b | | a |  | f(c,b,a) |
   0	    0	  0	
@@ -29,3 +30,4 @@ Screenshot:
   1 	0	  1	
   1	    1	  0	
   1	    1	  1   
+```
