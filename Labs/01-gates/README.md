@@ -18,7 +18,7 @@ end architecture dataflow;
 
 Screenshot:
 
-https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/01-gates/images/Capture.PNG
+![ScreenShot](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/01-gates/images/Capture.PNG)
 
 
 
