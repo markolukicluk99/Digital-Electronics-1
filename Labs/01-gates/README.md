@@ -1,0 +1,1 @@
+# Dostal jsem první bod!
