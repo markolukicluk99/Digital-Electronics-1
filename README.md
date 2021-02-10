@@ -4,6 +4,8 @@
 
 **Source code**
 
+### VHDL Syntax
+
 ```vhdl
 
 entity HelloWorld is
