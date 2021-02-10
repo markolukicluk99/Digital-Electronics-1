@@ -2,7 +2,7 @@
 
 
 
-### De Morgans Laws simulation
+## De Morgans Laws simulation
 
 ### EDA Playground
 https://www.edaplayground.com/x/h2Cc
