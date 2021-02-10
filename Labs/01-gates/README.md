@@ -1,10 +1,13 @@
 # Dostal jsem první bod!
 
-### EDA Playground
-https://www.edaplayground.com/x/h2Cc
+
 
 ### De Morgans Laws simulation
 
+### EDA Playground
+https://www.edaplayground.com/x/h2Cc
+
+### Code
 ```vhdl
 
 architecture dataflow of gates is
@@ -17,13 +20,13 @@ end architecture dataflow;
 
 ```
 
-Screenshot:
+### Screenshot:
 
 ![ScreenShot](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/01-gates/images/Capture.PNG)
 
 
 
-
+### Table:
 | c | b | a | f(c,b,a) |
 |---|---|---|----------|
 | 0	| 0 | 0 |	
