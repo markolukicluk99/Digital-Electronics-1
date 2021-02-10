@@ -18,7 +18,7 @@ end architecture dataflow;
 
 Screenshot:
 
-![Alt text](/../VUT-Digital-Electronics-1/labs/01-gates/images/capture.png?raw=true "Optional Title")
+https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/01-gates/images/Capture.PNG
 
 
 
