@@ -212,9 +212,9 @@ begin
 end architecture testbench;
 ```
 
-# Console outputs:
+# Simulation:
 
-
+![Alt text](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/02-logics/images/consoleoutput.PNG "Simulation")
 
 # EDA Playground link:
 
