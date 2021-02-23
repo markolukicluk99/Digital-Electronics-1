@@ -219,5 +219,3 @@ end architecture testbench;
 # EDA Playground link:
 
 https://www.edaplayground.com/x/RSJ6
-
-https://www.edaplayground.com/x/SWrs
