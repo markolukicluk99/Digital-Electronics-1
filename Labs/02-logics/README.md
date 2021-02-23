@@ -141,6 +141,13 @@ begin
         -- If false, then report an error
         report "Test failed for input combination: 01, 10" severity error;
         
+	-- First test values
+        s_b <= "11"; s_a <= "10"; wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+        -- If false, then report an error
+        report "Test failed for input combination: 11, 10" severity error;  
+	
         -- First test values
         s_b <= "01"; s_a <= "11"; wait for 100 ns;
         -- Expected output
@@ -169,6 +176,13 @@ begin
         -- If false, then report an error
         report "Test failed for input combination: 10, 10" severity error;
         
+	-- First test values
+        s_b <= "11"; s_a <= "11"; wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+        -- If false, then report an error
+        report "Test failed for input combination: 11, 11" severity error;  
+	
         -- First test values
         s_b <= "10"; s_a <= "11"; wait for 100 ns;
         -- Expected output
@@ -189,20 +203,6 @@ begin
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
         -- If false, then report an error
         report "Test failed for input combination: 11, 01" severity error;  
-
-        -- First test values
-        s_b <= "11"; s_a <= "10"; wait for 100 ns;
-        -- Expected output
-        assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-        -- If false, then report an error
-        report "Test failed for input combination: 11, 10" severity error;  
-
-        -- First test values
-        s_b <= "11"; s_a <= "11"; wait for 100 ns;
-        -- Expected output
-        assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-        -- If false, then report an error
-        report "Test failed for input combination: 11, 11" severity error;  
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
