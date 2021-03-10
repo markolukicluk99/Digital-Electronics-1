@@ -120,3 +120,8 @@ p_7seg_decoder : process(hex_i)
         end case;
     end process p_7seg_decoder;
     ```
+    
+    ### Screenshot of stimulus
+    
+    ![stimulus](https://user-images.githubusercontent.com/40130366/110635113-08164500-81ab-11eb-88ec-7da6e6c2662b.PNG)
+
