@@ -1,3 +1,4 @@
+
 # Repo link:
 https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-segment/README.md
 
@@ -123,5 +124,5 @@ p_7seg_decoder : process(hex_i)
     
     ### Screenshot of stimulus
     
-    ![stimulus](https://user-images.githubusercontent.com/40130366/110635113-08164500-81ab-11eb-88ec-7da6e6c2662b.PNG)
+![Stimulus](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-segment/images/stimulus.png "Stimulus")
 
