@@ -124,5 +124,5 @@ p_7seg_decoder : process(hex_i)
     
 ### Screenshot of stimulus:
     
-![Stimulus](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-segment/images/stimulus.png "Stimulus")
+![Stimulus](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-segment/images/stimulus.PNG "Stimulus")
 
