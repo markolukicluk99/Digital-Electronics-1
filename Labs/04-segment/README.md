@@ -1,7 +1,7 @@
 # Repo link:
 https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-segment/README.md
 
-### 
+### Table
 | *Hex* | *Inputs* | *A* | *B* | *C* | *D* | *E* | *F* | *G* |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
