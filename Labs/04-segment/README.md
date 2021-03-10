@@ -23,7 +23,7 @@ https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-s
 
 ### hex_7seg.vhd
 
-```
+```vhdl
 architecture Behavioral of hex_7seg is
 
 begin
