@@ -74,7 +74,7 @@ p_7seg_decoder : process(hex_i)
 end architecture Behavioral;
 ```
 
-#Stimulus process
+### Stimulus process
 ```vhdl
 p_7seg_decoder : process(hex_i)
     begin
