@@ -10,6 +10,7 @@ https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-s
 | 500&nbsp;ms | 50 000 000 | x"2FA_F080" | b"0010_1111_1010_1111_0000_1000_0000" |
 | 1&nbsp;sec | 100 000 000 | x"5F5_E100" | b"0101_1111_0101_1110_0001_0000_0000" |
 
+# Clock count up & down
 ```vhdl
 architecture Behavioral of p_cnt_up_down is
 begin
@@ -41,7 +42,7 @@ end architecture Behavioral;
 ```
 
 
-
+# Stimulus process
 ```vhdl
 p_reset_gen : process
     begin
