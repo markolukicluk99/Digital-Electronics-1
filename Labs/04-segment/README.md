@@ -1,3 +1,4 @@
+
 # Repo link:
 https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-segment/README.md
 
@@ -119,4 +120,9 @@ p_7seg_decoder : process(hex_i)
                 seg_o <= "0111000";     -- F
         end case;
     end process p_7seg_decoder;
-    ```
+```
+    
+### Screenshot of stimulus:
+    
+![Stimulus](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/04-segment/images/stimulus.PNG "Stimulus")
+
