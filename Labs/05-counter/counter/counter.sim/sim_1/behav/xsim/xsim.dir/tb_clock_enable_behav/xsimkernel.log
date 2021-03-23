@@ -2,3 +2,6 @@ Running: xsim.dir/tb_clock_enable_behav/xsimk.exe -simmode gui -wdb tb_clock_ena
 Design successfully loaded
 Design Loading Memory Usage: 6316 KB (Peak: 6316 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6896 KB (Peak: 6896 KB)
+Simulation CPU Usage: 30 ms
