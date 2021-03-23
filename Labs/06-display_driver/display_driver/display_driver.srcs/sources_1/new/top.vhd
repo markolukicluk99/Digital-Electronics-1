@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 03/23/2021 10:54:26 PM
+-- Create Date: 03/23/2021 11:05:03 PM
 -- Design Name: 
--- Module Name: driver_7seg_4digits - Behavioral
+-- Module Name: top - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,19 +31,29 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity driver_7seg_4digits is
---  Port ( );
-end driver_7seg_4digits;
+entity top is
+    Port ( CLK100Mhz : in STD_LOGIC;
+           BTNC : in STD_LOGIC;
+           SW : in std_logic_vector(16 - 1 downto 0);
+           CA : out STD_LOGIC;
+           CB : out STD_LOGIC;
+           CC : out STD_LOGIC;
+           CD : out STD_LOGIC;
+           CE : out STD_LOGIC;
+           CF : out STD_LOGIC;
+           CG : out STD_LOGIC;
+           DP : out STD_LOGIC;
+           AN : out std_logic_vector(8 - 1 downto 0));
+end top;
 
 architecture Behavioral of top is
-    -- No internal signals
-begin
 
+begin
     --------------------------------------------------------------------
     -- Instance (copy) of driver_7seg_4digits entity
-   uut_driver_7seg_4digits : entity work.driver_7seg_4digits
+    driver_seg_4 : entity work.driver_7seg_4digits
         port map(
-            clk        => CLK100Mhz,
+            clk        => CLK100MHZ,
             reset      => BTNC,
             data0_i(3) => SW(3),
             data0_i(2) => SW(2),
