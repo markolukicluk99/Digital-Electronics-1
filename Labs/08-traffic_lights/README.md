@@ -120,3 +120,14 @@ https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-t
 ## Screenshot of simulation 
     
 ![Screenshot](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-traffic_lights/screenshots/screenshot1.png "Screenshot")
+
+# Smart Controller
+### State table
+| *Actual State* |	*Output west*	| *Output south*	| *No cars*	| *Cars on west*	| *Cars on south*	| *Booth direction*|
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| STOP1	| RED	| RED	| WEST_GO	| WEST_GO	| WEST_GO	| WEST_GO|
+| WEST_GO	| GREEN	 | RED	| WEST_GO	| WEST_GO	| WEST_WAIT	| WEST_WAIT|
+| WEST_WAIT	| YELLOW	| RED	| STOP2	| STOP2	| STOP2 | 	STOP2|
+STOP2	RED	RED	SOUTH_GO	SOUTH_GO	SOUTH_GO	SOUTH_GO
+SOUTH_GO	RED	GREEN	SOUTH_GO	SOUTH_WAIT	SOUTH_GO	SOUTH_WAIT
+SOUTH_WAIT	RED	YELLOW	STOP1	STOP1	STOP1	STOP1
