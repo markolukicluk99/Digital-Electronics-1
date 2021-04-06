@@ -118,3 +118,5 @@ https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-t
     end process p_output_fsm;
 ```
 ## Screenshot of simulation 
+    
+![Screenshot](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-traffic_lights/screenshots/screenshot1.JPG "Screenshot")
