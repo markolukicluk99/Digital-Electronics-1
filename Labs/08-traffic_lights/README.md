@@ -117,3 +117,4 @@ https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-t
         end case;
     end process p_output_fsm;
 ```
+## Screenshot of simulation 
