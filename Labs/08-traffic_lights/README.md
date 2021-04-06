@@ -119,4 +119,4 @@ https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-t
 ```
 ## Screenshot of simulation 
     
-![Screenshot](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-traffic_lights/screenshots/screenshot1.PNG "Screenshot")
+![Screenshot](https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-traffic_lights/screenshots/screenshot1.png "Screenshot")
