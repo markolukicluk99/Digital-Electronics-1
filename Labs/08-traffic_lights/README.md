@@ -81,3 +81,39 @@ https://github.com/markolukicluk99/VUT-Digital-Electronics-1/blob/main/Labs/08-t
         end if; -- Rising edge
     end process p_traffic_fsm;
 ```
+
+# VHDL code for combinatorial process p_output_fsm
+```vhdl
+    --------------------------------------------------------------------
+    -- p_output_fsm:
+    -- The combinatorial process is sensitive to state changes, and sets
+    -- the output signals accordingly. This is an example of a Moore 
+    -- state machine because the output is set based on the active state.
+    --------------------------------------------------------------------
+    p_output_fsm : process(s_state)
+    begin
+        case s_state is
+            when STOP1 =>
+                south_o <= c_RED;
+                west_o  <= c_RED;
+            when WEST_GO =>
+                south_o <= c_RED;
+                west_o  <= c_GREEN;
+            when WEST_WAIT =>
+                south_o <= c_RED;
+                west_o  <= c_YELLOW;
+            when STOP2 =>
+                south_o <= c_RED;
+                west_o  <= c_RED;
+            when SOUTH_GO =>
+                south_o <= c_GREEN;
+                west_o  <= c_RED;
+            when SOUTH_WAIT =>
+                south_o <= c_YELLOW;
+                west_o  <= c_RED;
+            when others =>
+                south_o <= c_RED;
+                west_o  <= c_RED;
+        end case;
+    end process p_output_fsm;
+```
